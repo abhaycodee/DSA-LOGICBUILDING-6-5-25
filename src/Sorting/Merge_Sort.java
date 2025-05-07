@@ -7,10 +7,10 @@ public class Merge_Sort {
         if (si >= ei) return;
 
         {
-            int mi=(si+ei)/2;
-            divide(arr,si,mi);
-            divide(arr,mi+1,ei);
-            conquer(arr,si,mi,ei);
+            int mi = (si + ei) / 2;
+            divide(arr, si, mi);
+            divide(arr, mi + 1, ei);
+            conquer(arr, si, mi, ei);
         }
 
 
@@ -45,7 +45,7 @@ while(li<=mi)
 
 
     for (int i = 0; i < temp.length; i++) {
-        arr[si + i] = temp[i];
+        arr[si+ i] = temp[i];
     }
 
 
